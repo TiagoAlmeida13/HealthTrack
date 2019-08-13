@@ -1,0 +1,1 @@
+Por favor abrir os arquivos HTML usando um servidor WEB para conseguir vizualizar todas as integrações corretamente.
