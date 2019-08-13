@@ -1,0 +1,17 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "description": "Trabalho Acadêmico",
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "HealthTrack",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
