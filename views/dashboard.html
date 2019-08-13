@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">  
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css">
+
+
+    <title>Health Track - Dashboard</title>
+ 
+</head>
+
+<body>
+    <div class="flex-dashboard">
+            <sidebar id="sidebar">
+                <div class="sidebar-title">
+                    <img src="../images/heartbeat.png" alt="">
+                    <h2>Health Track</h2>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li class="selected">
+                            <i class="fas fa-home"></i>
+                            <a href="dashboard.html"> </i> Home</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-user">
+                            <a href="perfil.html"> </i> Perfil</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-weight">
+                            <a href="gerenciarpeso.html"> </i> Peso e Altura</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-heartbeat"></i>
+                            <a href="gerenciarPressao.html"> </i> Pressão arterial e frequência cardíaca</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-running">
+                            <a href="gerenciarAtividades.html"> </i> Atividades Físicas</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-utensils">
+                            <a href="gerenciarAlimentacao.html"> </i> Alimentos</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-calculator">
+                            <a href="calcularIMC.html"> </i> Calcular IMC</a>
+                        </li>
+                        <li class="sidebar_logout">
+                            <i class="fas fa-door-open"></i>
+                            <a href="../index.html"> </i> Logout</a>
+                        </li>
+                    </ul>
+                </div>   
+                </sidebar>
+                <main id="mainContent">
+                    <header>
+                        <i id="iconMenu" onclick="responsiveSidebar()" class="fas fa-bars"></i>
+                        <a href="../index.html"> <i class="fas fa-door-open"></i> Logout</a>
+                    </header>
+                    <div class="main-content">
+                        <div class="main-content-title">
+                            <h3>Dashboard</h3>
+                        </div>
+                        <div class="dashboard-content">
+                            <div class="dashboard-flex-parent">
+                                <div class="dashboard-box">
+                                    <div class="dashboard-box-wrapper">
+                                        <div class="box-icon box-weight">
+                                            <i class="fas fa-weight"></i>
+                                    </div>
+                                    <div class="value">
+                                        73
+                                    </div>
+                                    <div class="type">
+                                        Kilos
+                                    </div>
+                                    <div class="box-value-percentual">
+                                        <i class="fas fa-arrow-up"></i>
+                                        05%
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="dashboard-box">
+                                        <div class="dashboard-box-wrapper">
+                                            <div class="box-icon box-pressure">
+                                                <i class="fas fa-heartbeat"></i>
+                                        </div>
+                                        <div class="value">
+                                            100 BPM
+                                        </div>
+                                        <div class="type">
+                                            Pressão 12/8
+                                        </div>
+                                        <div class="box-value-percentual">
+                                            <i class="fas fa-calendar-alt"></i>
+                                            20/06/2019
+                                        </div>
+                                        </div>
+                                </div>
+                                <div class="dashboard-box">
+                                       <div class="dashboard-box-wrapper">
+                                        <div class="box-icon box-workout">
+                                            <i class="fas fa-running"></i>
+                                    </div>
+                                    <div class="value">
+                                        Corrida no parque
+                                    </div>
+                                    <div class="type">
+                                        5km 00:30:97
+                                    </div>
+                                    <div class="box-value-percentual">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        20/06/2019
+                                    </div>
+                                       </div>
+                                </div>
+                                <div class="dashboard-box">
+                                        <div class="dashboard-box-wrapper">
+                                            <div class="box-icon box-imc">
+                                                <i class="fas fa-calculator"></i>
+                                        </div>
+                                        <div class="value">
+                                            19,5
+                                        </div>
+                                        <div class="type">
+                                            IMC
+                                        </div>
+                                        <div class="box-value-percentual">
+                                            <span>NORMAL</span>
+                                        </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+    </div>
+    <script src="../plugins/jquery/jquery.min.js"></script>
+    <script src="../plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="../plugins/jquery-validation/dist/additional-methods.min.js"></script>
+    <script src="../plugins/jquery-validation/dist/localization/messages_pt_BR.min.js"></script>
+    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../plugins/fontawesome/js/all.min.js"></script>
+    <script src="../js/menu.js"></script>
+</body>
+
+
+</html>

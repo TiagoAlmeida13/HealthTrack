@@ -1,0 +1,124 @@
+div.perfil-parent{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.perfil{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 40px 20px;
+    max-width: 1300px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+    
+}
+
+div.perfil-img{
+    width: 40%;
+}
+
+div.perfil-form{
+    width: 60%;
+}
+
+div.perfil-form label{
+    font-size: 14px;
+    color: #5a5e63;
+}
+
+div.perfil-form input,
+div.perfil-form select{
+    font-size: 14px;
+    color: #5a5e63;
+}
+
+div.perfil-form .custom-file{
+    margin-top: 1rem;
+}
+
+div.perfil-form button{
+    margin-top: 20px;
+    background: linear-gradient(135deg, white, black);
+    border: none;
+    color: #fff;
+    
+
+}
+
+div.perfil-form button:hover{
+    border:none;
+    color: #fff;
+    transform: scale(1.15);
+    transition: .2s;
+}
+
+div.img{
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.2);
+    background-image: url('/images/perfil.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #5a5e63;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1480px) {
+    div.perfil{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 40px 20px;
+        max-width: 100%;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+        
+    }
+
+    div.perfil-img{
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+
+    div.img{
+        height: 500px;
+        width: 100%;
+        background-position: top;
+    }
+
+    div.perfil-form{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.perfil-img{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+
+    div.img{
+        height: 500px;
+        width: 100%;
+        background-position: top;
+    }
+}
