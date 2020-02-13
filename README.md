@@ -5,4 +5,4 @@
 Trabalho acadêmico feito em HMTML5, CSS3 e Javascript.
 
 
-+ (Para uma melhor experiência, abrir com live server)
+(Para uma melhor experiência, abrir com live server)
