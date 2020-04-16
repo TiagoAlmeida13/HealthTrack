@@ -4,7 +4,5 @@
 
 Trabalho acadêmico feito em HMTML5, CSS3 e Javascript. (Apenas Front-end)
 
-Foi utilizado HTML, CSS, Javascript e requisições Ajax.
-
 
 (Para uma melhor experiência, abrir com live server do VSCode)
