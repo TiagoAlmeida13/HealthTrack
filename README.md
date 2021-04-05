@@ -2,8 +2,6 @@
 
 ## HEALTH TRACK
 
-Trabalho acadêmico feito em HMTML5, CSS3 e Javascript. (Apenas Front-end)
+#### Trabalho acadêmico feito em HMTML5, CSS3 e Javascript. (Apenas Front-end)
 
-
-´´´
 (Para uma melhor experiência, rodar o projeto com live server do VSCode)
