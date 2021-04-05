@@ -5,4 +5,5 @@
 Trabalho acadêmico feito em HMTML5, CSS3 e Javascript. (Apenas Front-end)
 
 
-(Para uma melhor experiência, abrir com live server do VSCode)
+´´´
+(Para uma melhor experiência, rodar o projeto com live server do VSCode)
